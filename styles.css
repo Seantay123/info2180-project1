@@ -1,0 +1,215 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    color: #2d3748;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    background: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #6b7280;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #5A67D8;
+}
+
+/* HERO */
+.overview-hero {
+    background: #E2E8F0;
+    padding: 40px 0;
+}
+
+.overview-hero .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+}
+
+.overview-hero-image img {
+    width: 350px;
+    height: auto;
+}
+
+.overview-hero-text h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+/* LEARN ABOUT */
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 10px 15px;
+}
+
+.card-body h3 {
+    color: #48BB78;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+/* COVID TESTING */
+.testing {
+    background: #4A5568;
+    color: white;
+    padding: 40px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.testing-description h2 {
+    font-size: 28px;
+}
+
+.testing .btn {
+    background: #48BB78;
+    padding: 12px 40px;   /* wider button */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    min-width: 200px;     /* optional: ensures minimum width */
+}
+
+/* STORIES */
+.stories h2 {
+    color: #5A67D8;
+    margin-bottom: 20px;
+}
+
+.stories article {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.stories img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.stories h3 {
+    font-size: 22px;
+}
+
+.stories a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    background: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.newsletter form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter .btn {
+    background: #5A67D8;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    margin-top: 0;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background: #4A5568;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
